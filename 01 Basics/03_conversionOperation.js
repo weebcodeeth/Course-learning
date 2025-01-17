@@ -32,7 +32,7 @@ let stringNumber = String(someNumber)
 let number = 3
 let negnumber = -number
 
-console.log(negnumber);
+// console.log(negnumber);
 
 // console.log(2+2);
 // console.log(2-2);
@@ -64,7 +64,29 @@ num1 = num2 = num3 = 2 + 2
 
 let gameCounter = 100
 ++ gameCounter;
-console.log(gameCounter);
+// console.log(gameCounter);
+
+
+// Increment Operator
+
+// If used postfix, with operator after operand 
+// (for example, x++), the increment operator 
+// increments and returns the value before incrementing.
+
+let x= 3
+const y = x++
+
+console.log(x,y);
+
+// If used prefix, with operator before operand (for 
+// example, ++x), the increment operator increments 
+// and returns the value after incrementing.
+
+let a= 3
+const b = ++a
+
+console.log(a,b);
+
 
 
 
