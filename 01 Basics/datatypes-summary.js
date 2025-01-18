@@ -32,10 +32,10 @@ let myObj = {                                   // typeof Object
     age: 22,
 }
 
-const myfunction = function () {                // type of function 
-    console.log("how are u?");
+// const myfunction = function () {                // type of function 
+//     console.log("how are u?");
     
-}
+// }
 
 // console.log(typeof myfunction);
 
@@ -58,7 +58,33 @@ const myfunction = function () {                // type of function
 // if not handled carefully. Static typing, on the other hand, provides better type safety at the cost of some initial verbosity and strictness.
 
 
+//+++++++++++++++++++++++++++++++++
 
+// Stack (Primitive), Heap (Non-primitive)
+ 
+// Stack
+
+let myYoutubename = "lakshyamishra"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+// Heap
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "lakshya@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
 
 
 
